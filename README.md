@@ -16,6 +16,8 @@ Django-Google-Sheet
 7) pip3 install -r requirements.txt
 8) pip3 install -U django-gsheets-import
 
+# Google Sheets Template Preparation
+
 ### Prepare the database
 1) python3 manage.py makemigrations
 2) python3 manage.py migrate
@@ -24,4 +26,6 @@ Django-Google-Sheet
 
 ### Run the project
 1) python3 manage.py runserver <port ...8081, 8082....>
+2) go to localhost/admin 
+3) If all is OK you can see the data imported from google sheet template
 
