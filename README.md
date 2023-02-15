@@ -1,4 +1,5 @@
 # gsheets-with-frontend
+## Installation on Ubuntu 
 
 Django-Google-Sheet
 
@@ -8,5 +9,15 @@ Django-Google-Sheet
 
 1) make new directory for the project. After cd in the new directory
 2) python3 -m venv venv
-2) source venv/bin/activate
-3) git clone
+3) source venv/bin/activate
+4) git clone --branch <name_of_branch> <http:// github link>
+5) ls -la
+6) cd gsheets-with-frontend
+7) pip3 install -r requirements.txt
+
+### Prepare the database
+1) python3 manage.py makemigrations
+2) python3 manage.py migrate
+3) python3 manage.py createsuperuser
+4) python3 manage.py loaddata authors works
+
