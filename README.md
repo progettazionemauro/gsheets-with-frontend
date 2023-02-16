@@ -50,13 +50,13 @@ Django-Google-Sheet
  in file settings.py
  
  #### The Browser API key; see "Key" under "APIs & Services" > "Credentials" > "API Keys"
-GSHEETS_IMPORT_API_KEY = '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'
+GSHEETS_IMPORT_API_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 #### The Client ID; see "Client ID" under "APIs & Services" > "Credentials" > "OAuth 2.0 Client IDs"
-GSHEETS_IMPORT_CLIENT_ID = '109874705921151975570'
+GSHEETS_IMPORT_CLIENT_ID = 'XXXXXXXXXXXXXXXXXXXXX'
 
 #### The App ID; see "Project Number" under "IAM & Admin" > "Settings"
-GSHEETS_IMPORT_APP_ID = '998033857983'
+GSHEETS_IMPORT_APP_ID = 'XXXXXXXXXXXX'
 
 
 
