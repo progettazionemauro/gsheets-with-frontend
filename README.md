@@ -42,7 +42,11 @@ Django-Google-Sheet
 - Dowload JSON: here you can find Your Client ID and Your Client Secret
 - Note: Accessing the selected Google Sheet while only using the non-sensitive .../auth/drive.file scope requires the project’s App ID to be set. It is automatically created with each Google Cloud Project and can be found as Project number on your project’s dashboard or under the same name at Main Menu > IAM & Admin > Settings.
 - Go in Iam Admin > Create Service Account > Service Account Name > Create and Continue after Grant this Service ... > Select Role > Owner > Continue > Done
-  now in Google Sheets
+- Copy the generated email
+- Now in Google Sheets Template that you have created > Sharing > paste the generated email
+ 
+### Back to the project
+
 
 
 
