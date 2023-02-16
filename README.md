@@ -46,6 +46,17 @@ Django-Google-Sheet
 - Now in Google Sheets Template that you have created > Sharing > paste the generated email
  
 ### Back to the project
+- Only for testing (not in production)
+ in file settings.py
+ 
+ #### The Browser API key; see "Key" under "APIs & Services" > "Credentials" > "API Keys"
+GSHEETS_IMPORT_API_KEY = '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'
+
+#### The Client ID; see "Client ID" under "APIs & Services" > "Credentials" > "OAuth 2.0 Client IDs"
+GSHEETS_IMPORT_CLIENT_ID = '109874705921151975570'
+
+#### The App ID; see "Project Number" under "IAM & Admin" > "Settings"
+GSHEETS_IMPORT_APP_ID = '998033857983'
 
 
 
