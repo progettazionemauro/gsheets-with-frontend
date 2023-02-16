@@ -24,8 +24,10 @@ Django-Google-Sheet
 3) python3 manage.py createsuperuser
 4) python3 manage.py loaddata authors works
 
-### Run the project
+### ** Run the project **
 1) python3 manage.py runserver <port ...8081, 8082....>
 2) go to localhost/admin 
 3) If all is OK you can see the data imported from google sheet template
+
+
 
